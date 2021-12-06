@@ -1,14 +1,8 @@
 package gun12;
 
-public class _01_WhileLoop {
+public class _021_WhileLoop {
     public static void main(String[] args) {
         //3 kere ekrana Hello Word yazdırın.
-        /*
-        String str="Hello World";
-
-        System.out.println(str+"\n"+str+"\n"+str);
-
-         */
 
         int count = 0;
 

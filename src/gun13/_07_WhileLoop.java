@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _07_WhileLoop {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int random=(int)(Math.random()*100);
+        int random=(int)(Math.random()*100);   // 0-100 arasında random bir sayi oluştur.
         int sayac= 0;
         while (sayac<5) {
             System.out.println("Bir sayı girin :"); // 5 tane sayı istemek için

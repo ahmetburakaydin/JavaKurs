@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _03_WhileLoop {
+public class _023_WhileLoop {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
         // girilen 5 sayıdan en büyük olanı yazdırın.

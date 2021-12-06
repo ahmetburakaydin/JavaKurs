@@ -3,7 +3,7 @@ package gun12;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _02_SwitchCase {
+public class _012_SwitchCase {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Bugün haftanın hangi günü");

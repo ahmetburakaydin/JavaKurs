@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _03_SwitchCase {
+public class _013_SwitchCase {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
         System.out.println("2 tam sayı girin");

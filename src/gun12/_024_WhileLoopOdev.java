@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _04_WhileLoopOdev {
+public class _024_WhileLoopOdev {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);

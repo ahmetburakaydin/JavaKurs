@@ -1,25 +1,20 @@
 package gun15;
 
-public class _02_NestedLoop {
+public class _03_NestedLoop {
     public static void main(String[] args) {
 
         /*
-        *****
-        *****
-        *****
-        *****
-        *****
+
          */
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= 5; j++) {
+        for (int i = 1; i <=5 ; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
+
 
             }
             System.out.println();
 
         }
-
-
 
 
     }

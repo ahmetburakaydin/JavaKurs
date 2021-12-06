@@ -12,7 +12,7 @@ public class _06_WhileLoop {
          */
 
         int i = 0;
-        int count = 0;
+        int count = 0; // kelimeSayisi
 
         while (i<5) {
             System.out.println("Bir Kelime Yazın"); // 5 tane kelime istenir.

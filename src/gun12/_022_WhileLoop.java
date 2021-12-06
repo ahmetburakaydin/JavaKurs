@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _02_WhileLoop {
+public class _022_WhileLoop {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
         System.out.println("pozitif bir tam sayı girin"); //0 dan girilen sayıya kadar olan tek sayıları yazdır.

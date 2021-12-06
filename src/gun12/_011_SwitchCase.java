@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _01_SwitchCase {
+public class _011_SwitchCase {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
         System.out.println("Bugün haftanın kaçıncı günü?");

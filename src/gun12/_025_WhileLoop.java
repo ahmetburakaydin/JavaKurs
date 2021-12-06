@@ -2,7 +2,7 @@ package gun12;
 
 import java.util.Scanner;
 
-public class _05_WhileLoop {
+public class _025_WhileLoop {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
         int i = 0; //sayac

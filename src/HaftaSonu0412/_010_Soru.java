@@ -1,35 +1,27 @@
 package HaftaSonu0412;
 
+
 import java.util.Scanner;
 
 public class _010_Soru {
-    //Kullanıcıdan iki sayı girmesini isteyen bir do-while döngüsü yazın. Sayılar eklenmeli ve
-    //toplam görüntülenmelidir. Döngü, kullanıcıya işlemi tekrar yapmak isteyip istemediğini sormalıdır.
-    //Eğer öyleyse, döngü tekrar etmelidir; aksi halde sonlandırılmalıdır
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i =0;
-        int sayi = 0;
-        int toplam=0;
+        Scanner scanner = new Scanner(System.in);
+        String kelime;
+        int sayi;
+        int toplam =0;
         do {
-            System.out.println("Bir sayı Girin");
-            sayi= scan.nextInt();
-            i++;
-            toplam+=sayi;
-        }while (i< 2);{
-            scan.nextLine();
-            System.out.print("İşlemi Tekrar Etmek İstermisiniz ? 'Y' yada 'N' :" );
-            String cevap=scan.nextLine();
-            if (cevap.equalsIgnoreCase("n")) {
-                    System.out.println("Teşekkürler");
+            for (int i = 0; i < 2; i++) {
+                System.out.println("sayi girin");
+                sayi = scanner.nextInt();
+                toplam+=sayi;
             }
-            else if (cevap.equalsIgnoreCase("y")){
-                // contunie
-            }
-
+            System.out.println("toplam =" + toplam);
+            System.out.println("devam etmek istiyor musunuz? -- 'y' or 'n'");
+            scanner.nextLine();
+            kelime = scanner.nextLine();
+        } while (kelime.equalsIgnoreCase("y"));
+        if (!kelime.equalsIgnoreCase("y")){
+            System.out.println("program sonlandı");
         }
-        System.out.println("Toplam = "+toplam);
-
-
     }
 }

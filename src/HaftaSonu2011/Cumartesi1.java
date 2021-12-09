@@ -1,4 +1,4 @@
-package haftasonutekrar2011;
+package HaftaSonu2011;
 
 public class Cumartesi1 {
     public static void main(String[] args) {

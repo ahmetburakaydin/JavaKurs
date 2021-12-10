@@ -13,8 +13,8 @@ public class _04_ArrayMetotOrnek {
             System.out.println("Bir Sayı Girin");
             nums[i]=scan.nextInt();
         }
-        Arrays.sort(nums);
-        int enb=nums[nums.length-1];
+        Arrays.sort(nums);  // küçükten büyüğe sıralayıp
+        int enb=nums[nums.length-1]; // sonuncu indisi yazırıyoruz
         System.out.println("enb ="+enb);
 
 

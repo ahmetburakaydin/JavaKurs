@@ -9,7 +9,6 @@ public class _05_ArrayOrnek {
         Bu sayilari bir diziye atin. Bu sayilardan en büyügünü ekrana yazdirin.
          */
         Scanner scanner = new Scanner(System.in);
-        System.out.println("5 sayı girin");
         int enb =0;
         int[]nums= new int[5];
         for (int i = 0; i < nums.length; i++) {

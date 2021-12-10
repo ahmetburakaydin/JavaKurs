@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _06_ArrayOrnek {
     public static void main(String[] args) {
-        // kullanıcıdan 5 tane sayı alın ve bu sayıların tek olanlarının bi diziye atın
+        // kullanıcıdan 5 tane sayı alın ve bu sayıların tek olanlarının toplam sayısını ve tek sayıları yazdırın.
         Scanner scan = new Scanner(System.in);
         int [] array =new int[5];
         for (int i = 0; i < array.length ; i++) {   // dizi eleman eklemek için

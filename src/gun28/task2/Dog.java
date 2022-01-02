@@ -1,7 +1,7 @@
 package gun28.task2;
 
 public class Dog {
-    //  instance variables; new ile oluşturulanlar
+    //  instance variables; new ile oluşturulanlarda kullanılırlar.
     String name ;
     String cins ;
     int yas;
@@ -12,6 +12,26 @@ public class Dog {
 
     // class variables,bir tanedir.nesnede oluşturulamazlar
     static int count;
+
+    // Dog türünden oluşturulan nesneye ait
+    public void havla() {
+        System.out.println("ben"+name+"havladım");
+    }
+    // bu class için oluşturulmuş bir metot
+    public static void yaz(int i) {
+        System.out.println(i);
+    }
+    public static void yaz(String str) {
+        System.out.println(str);
+    }
+    public static void yaz(Dog dog) {
+        System.out.println(dog.cins);
+    }
+    public static void yaz() {
+        System.out.println("Yazıyorum");
+    }
+
+
 
     public static void main(String[] args) {
         Dog dog1 = new Dog(); //  Dog clasından oluşturulmuş bir nesne.
@@ -31,22 +51,10 @@ public class Dog {
         yaz(dog1.yas);
         yaz(dog2.sahibi);
         yaz(dog2);
+        yaz();
 
     }
-    // Dog türünden oluşturulan nesneye ait
-    public void havla() {
-        System.out.println("ben"+name+"havladım");
-    }
-    // bu class için oluşturulmuş bir metot
-    public static void yaz(int i) {
-        System.out.println(i);
-    }
-    public static void yaz(String str) {
-        System.out.println(str);
-    }
-    public static void yaz(Dog dog) {
-        System.out.println(dog.cins);
-    }
+
 
 
 }

@@ -7,13 +7,13 @@ public class Okul {
         Scanner scan = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
         // normalde ogrenci classıyle tek bir öğrenci nesnesi oluşturmak için;
-        // Ogrenci ogrenci1=new Ogrenci(); 1 adet ogrenci1 nesnesini oluşturdum. (içerisinde veri olmayan.)
+        // Ogrenci ogrenci1=new Ogrenci() kullanırız; 1 adet ogrenci1 nesnesini oluşturdum. (içerisinde veri olmayan.)
         // 0grenci Classında tanımlanan methotlarla içerisine veri aktarabiliriz.
 
         // bu işlemi 10 öğrenciye uygulamak için ise  'Ogrenci ' classıyla bir array tanımlarım.
         Ogrenci [] ogrenciler = new Ogrenci[10];
 
-        // ogrenciler adında için 10 öğrencilik yeri olan ama  null bir array tanımlamış olduk.
+        // ogrenciler adında için 10 öğrencilik yeri olan ama  Ogrenci classında  bir array tanımlamış olduk.
 
 
         // bu arrayin(öğrenciler) elemanlarınına yani öğrencilerine veri atamak için for döngüsünü kullanıyoruz.
@@ -22,7 +22,7 @@ public class Okul {
                                             // İçinde veri olmayan 10 adet ogrenci nesnesi ürettik.
             ogrenciler[i]=ogrenci;  // üretilen bu nesneleri (öğrencileri ) öğrenciler dizininin elemanlarına atadır.
                                     // nesnelerin içerisinde hala veri yok .
-                                    // bu aşamada dizi elemanlarına ogrenci diye bi yapı atanmasına rağmen
+                                    // bu aşamada dizi elemanlarına ogrenci diye boş bir nesne atanır
                                     // çıktısı alındığında null hatası alınacaktır.
 
             System.out.println("Ogrencinin İsmi :"); // döngü içerisinde scannerla daha önceden Ogrenci classında
@@ -39,7 +39,7 @@ public class Okul {
                                                // belli bir methodla veri eklenmişsse o şekilde veri yazdırılmalı(çağrılmalı
         // System.out.println(Arrays.toString(ogrenciler)); // output : 3/10 eleman girilmiş girilen elemanlar ram adresi
                                                             // kalanlar null
-        /*System.out.println(ogrenciler[2].soyisim); // verilen isim çıkar
+        /*System.out.println(ogrenciler[2].soyisim); // verilen soyisim çıkar
 
         System.out.println(ogrenciler[0].yas); // verilen yaş çıkar.*/
 

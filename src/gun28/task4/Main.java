@@ -13,6 +13,7 @@ public class Main {
         j1.havla();
         j1.yas = 21;
         j1.cins="Labrador";
+        j1.ısır();
         Java.sayi=5; // static olmayan bir variablesi başka bir clasda yine  class ismiyle çağırıyoruz.
         // static bir method
         Main.çiz(j1.name); // Main classında tanımlanan bir method
@@ -22,18 +23,12 @@ public class Main {
         Dog.yaz(j1.yas);
 
     }
-
-
 }
-
-
-
 class Java {
     String name ;
     String cins;
     int yas;
     static int sayi;
-
     public void havla() {
         System.out.println("ben"+name+"havladım");
     }
@@ -41,7 +36,6 @@ class Java {
     public static void yaz(int i) {
         System.out.println(i);
     }
-
     public static void kes() { System.out.println("Yazıyorum");}
 
 

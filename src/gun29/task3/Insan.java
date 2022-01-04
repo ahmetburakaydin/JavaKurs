@@ -1,7 +1,6 @@
 package gun29.task3;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Insan {
     String adı;
@@ -9,7 +8,7 @@ public class Insan {
     Insan baba;
     Insan anne;
     Insan es;     // sonrasında ödev olarak aile soy ağacından kullanılmak üzere kullanılacak .
-    ArrayList<Insan> cocuklar=new ArrayList<>();
+    ArrayList<Insan> cocukları =new ArrayList<>();
 
 
     public void veriAta(String adı,int yas) {
@@ -34,13 +33,13 @@ public class Insan {
     public void esAta(Insan insan) { es=insan; }
     public void cocukAta (Insan...adı) {
         for (Insan c:adı) {
-            cocuklar.add(c);
+            cocukları.add(c);
 
         }
     }
     public void cocuklarınıSoyle () {
-        for (int i = 0; i < cocuklar.size(); i++) {
-            System.out.println(cocuklar.get(i).adı+" ");
+        for (int i = 0; i < cocukları.size(); i++) {
+            System.out.println(cocukları.get(i).adı+" ");
         }
     }
 

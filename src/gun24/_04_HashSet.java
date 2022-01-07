@@ -40,7 +40,7 @@ public class _04_HashSet {
 
         /*int[] nums= new int[10];
         for (int i = 0; i < nums[i]; i++) {
-            nums[i] = (int) (Math.random() * 10);
+            nums[i] = (int) (MyMath.random() * 10);
         }
         System.out.println(Arrays.toString(nums));*/
         /*for (int i = 0;  i< set1.size(); i++) {

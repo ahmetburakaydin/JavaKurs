@@ -14,32 +14,9 @@ public class Main1 {
         kitap3.getKitapBilgisi();
 
         Kitap.kitapSayısıYaz();
-
-
-
-
-
-        /*
-        Bir Kitap Classının tanımlaın.
-        Instance Variables ;
-        name
-        basım yılı
-        sayfa sayısı
-        ınstance methods
-            kitaptanımla()  kitabın instance variableslarınını alalım
-            getKitapBilgisi() ile kitapbilgisini yazdıralım
-        Class Vars
-            kitap sayısı
-        Class methods
-            kitapSayısıYaz()
-
-            main1 de  3 tane kitap oluşturalım
-            kitap bilgilerini yazdıralım
-            kitapSayısınınYaz ile toplam kitap sayısının yazdıralım
-
-         */
-
     }
+
+
 }
 
 class Kitap {
@@ -58,7 +35,7 @@ class Kitap {
         System.out.println(" Adı :"+adi+"\nBasım Yılı : "+basımYılı+" \nSayfa Sayısı : "+sayfaSayısı);
     }
 
-    public static void kitapSayısıYaz(){
+    public static void  kitapSayısıYaz(){
         System.out.println("Toplam Kitap Sayısı : "+kitapSayısı);
     }
 

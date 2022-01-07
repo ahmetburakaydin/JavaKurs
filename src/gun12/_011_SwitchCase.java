@@ -31,7 +31,7 @@ public class _011_SwitchCase {
                 System.out.println("Bugün Pazar");
                 break;
             default:
-                System.out.println("Geçersiz Islem");
+                System.out.println("Geçersiz MyMath");
         }
     }
 }

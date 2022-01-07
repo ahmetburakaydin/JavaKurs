@@ -18,7 +18,7 @@ public class Dikdörtgen {
     public double getCevre() {
         return 2*(x+y);
     }
-    public double getAlan() {
+      public double getAlan() {
         return x*y;
     }
 

@@ -7,6 +7,7 @@ public class Main3 {
         System.out.println(d1.getAlan());
         System.out.println(d1.getCevre());
 
+
         System.out.println("--------");
     }
 }

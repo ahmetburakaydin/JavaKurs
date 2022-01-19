@@ -43,12 +43,7 @@ public class Banka {
         return kasaBakiyesi;
     }
 
-    public static void transferEt (Banka b1,Banka b2,int transfer) {
 
-        b1.paraCek(transfer);
-        b2.paraYatır(transfer);
-
-    }
 
 
 }

@@ -5,18 +5,14 @@ public class Main {
         Banka b1 = new Banka("kişisel", "A", 1000);
         Banka b2 = new Banka("şirket", "B");
         Banka b3 = new Banka("özel","c",2000);
-        b2.paraYatır(250);
-
-        Banka.transferEt(b3,b2,500);
-        paraTransferEt(b1,b2,100);
-        paraTransferEt(b3,b2,300);
+        b2.paraYatır(1500);
+        paraTransferEt(b2,b1,1000);
+        paraTransferEt(b3,b1,500);
         System.out.println(b1);
         System.out.println(b2);
         System.out.println(b3);
 
-       /* Banka.transferEt(b1,b2,500);
-        System.out.println(b1);
-        System.out.println(b2);*/
+
     }
     public static void paraTransferEt (Banka from,Banka to ,int havaleMiktarı) {
         if(from.getBakiye()>havaleMiktarı){

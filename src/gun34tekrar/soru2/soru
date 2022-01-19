@@ -1,0 +1,18 @@
+2.
+
+    IsYeri nesnesi olusturun
+        adi
+        HashSet<Isci> calisanlar
+
+    Isci olusturun
+        adi
+        Isci grupArkadasi    // her iscinin bir calisma arkadasi olmali
+
+    Main
+        2 adet isyeri ve 4 adet isci olusturun
+        iscilerin calisma arkadasini atayin,
+        bir isciye is arkadasi atayinda diger iscinin de is arkadasi olarak da bu isci otomatik atanmali
+        iscileri isyerlerine gönderin
+        isyerlerinde kimlerin calistigini ekrana yazdiran methodu da yazmayi unutmayin
+
+

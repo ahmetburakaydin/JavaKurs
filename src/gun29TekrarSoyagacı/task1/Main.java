@@ -39,7 +39,6 @@ public class Main {
         zaa.veriAta("zeynep asarkaya",36);
         ma.cocukAta(aö,zaa,aba);
         za.cocukAta(aö,zaa,aba);
-        aba.kardesAta(aö,zaa);
 
         Insan si = new Insan();
         si.veriAta("sümeyra inceleme",31);
@@ -47,13 +46,9 @@ public class Main {
         mç.veriAta("mertcan çakır",23);
         gç.cocukAta(si,mç,ea);
         şç.cocukAta(si,mç,ea);
-        ea.kardesAta(mç,si);
 
-        aba.senKimsin();
-        aba.anneAdınNe();
-        aba.babaAdınNe();
-        aba.cocuklarınıSoyle();
-        aba.kardesleriniSöyle();
+
+
 
 
     }

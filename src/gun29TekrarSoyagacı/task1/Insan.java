@@ -3,50 +3,42 @@ package gun29TekrarSoyagacı.task1;
 import java.util.ArrayList;
 
 public class Insan {
-    String adı;
-    int yası;
+    String adi;
+    int yasi;
     Insan anne;
     Insan baba;
     Insan es ;
-    ArrayList<Insan> kardesleri = new ArrayList<>();
-    ArrayList<Insan> cocukları =new ArrayList<>();
+    ArrayList<Insan> cocuklari = new ArrayList<>();
+
 
     public void veriAta(String adı, int yası){
-        this.adı=adı;
-        this.yası=yası;
+        this.adi =adı;
+        this.yasi =yası;
     }
     public void babaAta(Insan insan){ baba=insan;}
     public void anneAta(Insan insan){ anne=insan;}
     public void esAta(Insan insan) { es=insan; }
-    public void kardesAta(Insan...adı) {
-        for (Insan k :adı) {
-            kardesleri.add(k);
-        }
-    }
+
     public void cocukAta (Insan...adı) {
         for (Insan c:adı) {
-            cocukları.add(c);
+            cocuklari.add(c);
         }
     }
     public void senKimsin () {
-        System.out.println("Adım "+ adı+" Yaşım "+yası);
+        System.out.println("Adım "+ adi +" Yaşım "+ yasi);
     }
     public void babaAdınNe () {
-        System.out.println("Babamın  adı "+baba.adı+" ve " +baba.yası+"yaşında");
+        System.out.println("Babamın  adı "+baba.adi +" ve " +baba.yasi +"yaşında");
     }
     public void anneAdınNe () {
-        System.out.println("Annemin  adı "+anne.adı+" ve " +anne.yası+"yaşında");
+        System.out.println("Annemin  adı "+anne.adi +" ve " +anne.yasi +"yaşında");
     }
     public void cocuklarınıSoyle () {
-        for (int i = 0; i < cocukları.size(); i++) {
-            System.out.println("Çocuğum "+cocukları.get(i).adı+" ");
+        for (int i = 0; i < cocuklari.size(); i++) {
+            System.out.println("Çocuğum "+cocuklari.get(i).adi+" ");
         }
     }
-    public void kardesleriniSöyle () {
-        for (int i = 0; i < kardesleri.size(); i++) {
-            System.out.println("Kardeşim "+kardesleri.get(i).adı+" ");
-        }
-    }
+
 
 }
 

@@ -6,6 +6,12 @@ public class Sekil1 implements ICizilebilir{
     public void ciz() {
         say(10);
     }
+
+    @Override
+    public void sil() {
+
+    }
+
     public void say(int num ){
         for (int i = 0; i < num; i++) {
             System.out.print(i+", ");
